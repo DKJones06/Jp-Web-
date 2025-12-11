@@ -1,0 +1,290 @@
+/* --- ADMIN PANEL: DKJONES28 - INSPIRED THEME --- */
+
+/* Global admin background and text */
+body {
+    background: #0a1124 !important; /* mørk navy */
+    color: #e5e7eb !important;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* NAVIGATION (topbar) */
+nav.card {
+    background: #091121 !important;
+    padding: 12px 20px;
+    border-bottom: 1px solid #1e2b45;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+}
+
+nav.card a {
+    color: #93c5fd !important;
+    margin-right: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav.card a:hover {
+    color: #bfdbfe !important;
+}
+
+/* Admin layout wrapper */
+.admin-layout {
+    margin-top: 20px;
+}
+
+/* --- ADMIN HEADER --- */
+.admin-header {
+    margin-bottom: 20px;
+    padding: 14px 20px;
+    background: #0f172a;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+
+.admin-header h1 {
+    margin: 0;
+    font-size: 1.7rem;
+    color: #e2e8f0;
+}
+
+.admin-header p {
+    margin-top: 4px;
+    color: #94a3b8;
+}
+
+.admin-user {
+    text-align: right;
+    color: #9ca3af;
+}
+
+/* --- DASHBOARD CARDS --- */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 16px;
+}
+
+.stat-card {
+    padding: 18px;
+    border-radius: 14px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+    background: linear-gradient(135deg, #1e40af, #0a1124 70%);
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    opacity: 0.85;
+    text-transform: uppercase;
+}
+
+.stat-value {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.stat-sub {
+    font-size: 0.9rem;
+    margin-top: 4px;
+    opacity: 0.85;
+}
+
+/* Color variations */
+.stat-users {
+    background: linear-gradient(135deg, #0891b2, #0a1124 70%);
+}
+.stat-notes {
+    background: linear-gradient(135deg, #2563eb, #0a1124 70%);
+}
+.stat-comments {
+    background: linear-gradient(135deg, #7c3aed, #0a1124 70%);
+}
+.stat-uploads {
+    background: linear-gradient(135deg, #ea580c, #0a1124 70%);
+}
+
+/* --- CHARTS --- */
+.dashboard-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.chart-card {
+    background: #0d162b;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.45);
+}
+
+.chart-card h2 {
+    margin: 0 0 12px;
+    color: #e2e8f0;
+}
+
+/* --- ACTIVITY TABLES --- */
+.dashboard-activity {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.activity-card {
+    background: #0d162b;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+/* Clean tables */
+.clean-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    color: #e2e8f0;
+}
+
+.clean-table th,
+.clean-table td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #1e293b;
+}
+
+.clean-table th {
+    color: #94a3b8;
+    text-align: left;
+}
+
+.clean-table tr:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+/* --- SHORTCUT BUTTONS --- */
+.admin-shortcuts {
+    background: #0d162b;
+    padding: 16px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.shortcut-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.shortcut-btn {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background: #1e3a8a;
+    color: #e5e7eb;
+    text-decoration: none;
+    border: 1px solid #1d4ed8;
+}
+
+.shortcut-btn:hover {
+    background: #2563eb;
+}
+
+/* Cards in admin area */
+.card {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+    padding: 16px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.35) !important;
+}
+.clean-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.clean-table th {
+    background: #1e293b;
+    padding: 10px;
+    text-align: left;
+}
+
+.clean-table td {
+    padding: 10px;
+    border-bottom: 1px solid #334155;
+}
+
+.btn-small {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.edit-btn {
+    background: #0f766e;
+    color: white;
+}
+
+.delete-btn {
+    background: #7f1d1d;
+    color: white;
+}
+/* Toolbar container */
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0 12px;
+    padding: 8px;
+    background: #0f172a; /* Mørk baggrund */
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+}
+
+/* Toolbar knapper */
+.toolbar button {
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    background: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.15s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+/* Hover effekt */
+.toolbar button:hover {
+    background: #334155;
+    border-color: #475569;
+    transform: translateY(-1px);
+}
+
+/* Aktiv klik effekt */
+.toolbar button:active {
+    transform: translateY(1px);
+    background: #1e293b;
+}
+
+/* Gør toolbar pæn på mobil */
+@media (max-width: 600px) {
+    .toolbar {
+        gap: 6px;
+        padding: 6px;
+    }
+    .toolbar button {
+        padding: 5px 10px;
+        font-size: 0.78rem;
+    }
+}
